@@ -69,21 +69,27 @@ body{
     }
 }
 
-#carouselButton {
+#carouselbuttons {
     right:0px;
     position: absolute;
     bottom: 0px;
-    z-index: 1;
+    z-index: 2;
 }
 
 
 .modal {
     
-    background:floralwhite;
     .modal-header{
         background : #512DA8;
+        color: white;
+
+        .close{
+          color: #bca9e8;
+        }
+
     }
     .modal-body{
-        background : #bca9e8;
+        background: #bca9e8; 
+        color: black;
     }
 }
