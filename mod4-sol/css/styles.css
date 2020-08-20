@@ -51,10 +51,12 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px;
-  z-index: 1; }
+  z-index: 2; 
+}
 
 .modal .modal-header {
     background: #512DA8; 
+    color: white;
 }
 
 
@@ -67,3 +69,4 @@ body {
     background: #bca9e8; 
     color: black;
 }
+
